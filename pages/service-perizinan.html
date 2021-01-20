@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="../static/css/main.css" rel="stylesheet" />
+    <link href="../static/css/responsive.css" rel="stylesheet" />
+
+    <title>Kioshukum</title>
+  </head>
+  <body>
+    <nav class="navbar main-nav navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid ctf">
+        <a class="navbar-brand" href="../index.html">Law.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <div
+                class="dropdown-menu dropdown-multicol"
+                aria-labelledby="navbarDropdown"
+              >
+                <div class="dropdown-row">
+                  <div class="item-sub-menu">
+                    <a
+                      href="#"
+                      class="wrapper-menu dropdown-item"
+                    >
+                      <img
+                        class="icon-sub-menu"
+                        src="../static/images/ic-certificate.svg"
+                      />
+                      <div class="wrapper-sub-name ms-2">
+                        <p class="sub-title">Perizinan Usaha</p>
+                        <p class="sub-description">
+                          Pendirian PT, CV, FIRMA, Koperasi, OSS, UMKM
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="item-sub-menu">
+                    <a href="#" class="wrapper-menu dropdown-item">
+                      <img
+                        class="icon-sub-menu"
+                        src="../static/images/ic-justice.svg"
+                      />
+                      <div class="wrapper-sub-name ms-2">
+                        <p class="sub-title">Probono</p>
+                        <p class="sub-description">
+                          Pelayanan probono untuk masyarakat umum.
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="item-sub-menu">
+                    <a href="#" class="wrapper-menu dropdown-item">
+                      <img
+                        class="icon-sub-menu"
+                        src="../static/images/ic-briefcase.svg"
+                      />
+                      <div class="wrapper-sub-name ms-2">
+                        <p class="sub-title">Ketenagakerjaan</p>
+                        <p class="sub-description">
+                          Pelayanan Ketenagakerjaan untuk masyarakat umum.
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="item-sub-menu">
+                    <a href="#" class="wrapper-menu dropdown-item">
+                      <img
+                        class="icon-sub-menu"
+                        src="../static/images/ic-goverment.svg"
+                      />
+                      <div class="wrapper-sub-name ms-2">
+                        <p class="sub-title">Goverment service</p>
+                        <p class="sub-description">
+                          Pelayanan perlindungan hukum untuk perusahaan.
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="item-sub-menu">
+                    <a href="#" class="wrapper-menu dropdown-item">
+                      <img
+                        class="icon-sub-menu"
+                        src="../static/images/ic-police.svg"
+                      />
+                      <div class="wrapper-sub-name ms-2">
+                        <p class="sub-title">HAKI</p>
+                        <p class="sub-description">
+                          Pelayanan pendaftaran Haki dan paten
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lawyers.html">Lawyers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a href="login.html" class="btn btn-sm btn-nav-outline">Login</a>
+            <a href="register.html" class="btn btn-sm btn-nav-solid ms-2">Register</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="main-wrapper">
+      <section class="banner banner-services">
+        <div class="container">
+          <p class="banner-lable">Kios Hukum.id</p>
+          <h1 class="banner-title">
+            Pendirian<br />PT, CV, FIRMA, KOPERASI, OSS DAN UMKM
+          </h1>
+          <p class="banner-description">
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas.
+          </p>
+        </div>
+      </section>
+      <section class="about-services">
+        <div class="container">
+          <div class="wrapper-services">
+            <h1 class="services-title">About Services</h1>
+            <p class="services-description">
+              Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat
+              vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+              amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
+              placerat eleifend leo. Quisque sit amet est et sapien ullamcorper
+              pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae,
+              ornare sit amet, wisi.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="pricing">
+        <div class="container">
+          <div class="wrapper-pricing">
+            <p class="company-lable">Kios Hukum.id</p>
+            <h1 class="pricing-title">Jaminan Layanan Terbaik</h1>
+            <p class="pricing-description">
+              Kios Hukum.id menyediakan layanan bantuan hukum terbaik dan di
+              tangani oleh pengacara berdedikasi tinggi di bidangnya.
+            </p>
+            <div class="wrapper-pricing-filter">
+              <p class="filter-title">Cek Harga Layanan</p>
+              <form action="#">
+                <div class="row-pricing-filter">
+                  <div class="item-pricing col">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>-- Pilih Wilayah --</option>
+                      <option value="1">.....</option>
+                    </select>
+                  </div>
+                  <div class="item-pricing col">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Pendiri Usaha - PT</option>
+                      <option value="1">.....</option>
+                    </select>
+                  </div>
+                  <button class="btn button-pricing">Cek Harga</button>
+                </div>
+              </form>
+            </div>
+            <div class="table-responsive">
+              <p class="table-description">
+                Tawaran terbaik kami untuk layanan terpilih
+              </p>
+              <table class="table table-pricing">
+                <thead>
+                  <tr>
+                    <th class="pricing-table-title" scope="col">Layanan</th>
+                    <th class="pricing-table-title" scope="col">Wilayah</th>
+                    <th class="pricing-table-title" scope="col">Harga</th>
+                    <th class="pricing-table-title" scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      Pendirian usaha - PT (Perseroan Terbatas)
+                      <p>
+                        Estimasi penanganan layanan 25 hari kerja, dengan
+                        persyaratan terlampir. download Peryaratan
+                        <a href="#">Download Persyaratan</a>
+                      </p>
+                    </td>
+                    <td>JABODETABEK</td>
+                    <td>IDR. 1.500.000,-</td>
+                    <td>
+                      <button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Pendirian usaha - PT (Perseroan Terbatas)
+                      <p>
+                        Estimasi penanganan layanan 25 hari kerja, dengan
+                        persyaratan terlampir. download Peryaratan
+                        <a href="#">Download Persyaratan</a>
+                      </p>
+                    </td>
+                    <td>JABODETABEK</td>
+                    <td>IDR. 1.500.000,-</td>
+                    <td>
+                      <button class="btn button-book mx-auto">Book Now</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Pendirian usaha - PT (Perseroan Terbatas)
+                      <p>
+                        Estimasi penanganan layanan 25 hari kerja, dengan
+                        persyaratan terlampir. download Peryaratan
+                        <a href="#">Download Persyaratan</a>
+                      </p>
+                    </td>
+                    <td>JABODETABEK</td>
+                    <td>IDR. 1.500.000,-</td>
+                    <td>
+                      <button class="btn button-book mx-auto">Book Now</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="accordion accordion-flush accordion-pricing"
+              id="accordionPricing"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed collapse-item-pricing"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    <p class="table-header">Layanan</p>
+                    <p class="table-title">
+                      Pendirian usaha - PT (Perseroan Terbatas)
+                    </p>
+                    <p class="table-content">
+                      Estimasi penanganan layanan 25 hari kerja, dengan
+                      persyaratan terlampir.
+                    </p>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionPricing"
+                >
+                  <div class="accordion-body">
+                    <a class="link-pernyataan" href="#">download Peryaratan</a>
+                    <div class="wrapper-table-content">
+                      <p class="table-header">Wilayah</p>
+                      <p class="table-title">JABODETABEK</p>
+                    </div>
+                    <div class="wrapper-table-content">
+                      <p class="table-header">Harga</p>
+                      <p class="table-title">IDR. 1.500.000,-</p>
+                    </div>
+                    <a class="btn button-book-mobile" href="#">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed collapse-item-pricing"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    <p class="table-header">Layanan</p>
+                    <p class="table-title">
+                      Pendirian usaha - CV (commanditaire vennootschap)
+                    </p>
+                    <p class="table-content">
+                      Estimasi penanganan layanan 25 hari kerja, dengan
+                      persyaratan terlampir.
+                    </p>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionPricing"
+                >
+                  <div class="accordion-body">
+                    <a class="link-pernyataan" href="#">download Peryaratan</a>
+                    <div class="wrapper-table-content">
+                      <p class="table-header">Wilayah</p>
+                      <p class="table-title">JABODETABEK</p>
+                    </div>
+                    <div class="wrapper-table-content">
+                      <p class="table-header">Harga</p>
+                      <p class="table-title">IDR. 1.500.000,-</p>
+                    </div>
+                    <a class="btn button-book-mobile" href="#">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed collapse-item-pricing"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <p class="table-header">Layanan</p>
+                    <p class="table-title">Pendirian usaha - FIRMA</p>
+                    <p class="table-content">
+                      Estimasi penanganan layanan 25 hari kerja, dengan
+                      persyaratan terlampir.
+                    </p>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionPricing"
+                >
+                  <div class="accordion-body">
+                    <a class="link-pernyataan" href="#">download Peryaratan</a>
+                    <div class="wrapper-table-content">
+                      <p class="table-header">Wilayah</p>
+                      <p class="table-title">JABODETABEK</p>
+                    </div>
+                    <div class="wrapper-table-content">
+                      <p class="table-header">Harga</p>
+                      <p class="table-title">IDR. 1.500.000,-</p>
+                    </div>
+                    <a class="btn button-book-mobile" href="#">Book Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="how-it-works">
+        <p class="how-it-title">How it Works</p>
+        <div class="seperator"></div>
+        <div class="wrapper-step">
+          <div class="container step-row">
+            <div class="wrapper-icon">
+              <img class="icon-step" src="../static/images/writing.svg" />
+            </div>
+            <div class="col wrapper-step-description">
+              <p class="feature-title">Feature Step 01</p>
+              <p class="feature-description">
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+                libero sit amet quam egestas semper. Aenean ultricies mi vitae
+                est. Mauris placerat eleifend leo.
+              </p>
+              <a class="btn button-step" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper-step">
+          <div class="container step-row">
+            <div class="wrapper-icon">
+              <img class="icon-step" src="../static/images/law.svg" />
+            </div>
+            <div class="col wrapper-step-description">
+              <p class="feature-title">Feature Step 02</p>
+              <p class="feature-description">
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+                libero sit amet quam egestas semper. Aenean ultricies mi vitae
+                est. Mauris placerat eleifend leo.
+              </p>
+              <a class="btn button-step" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper-step">
+          <div class="container step-row">
+            <div class="wrapper-icon">
+              <img class="icon-step" src="../static/images/briefcase.svg" />
+            </div>
+            <div class="col wrapper-step-description">
+              <p class="feature-title">Feature Step 03</p>
+              <p class="feature-description">
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+                libero sit amet quam egestas semper. Aenean ultricies mi vitae
+                est. Mauris placerat eleifend leo.
+              </p>
+              <a class="btn button-step" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner-ads">
+        <div class="container">
+          <div class="wrapper-banner">
+            <div class="left">
+              <p class="ads-title">
+                Indonesia court filing and process serving software for law
+                firms
+              </p>
+              <p class="ads-description">
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas.
+              </p>
+            </div>
+            <div class="right">
+              <a class="btn button-ads" href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonial">
+        <div class="container">
+          <div class="wrapper-testimonial">
+            <h1 class="testimonial-title">Testimonial</h1>
+            <div class="testimonial-seperator"></div>
+            <div class="wrapper-vm">
+              <p class="testimonial-description">
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas
+              </p>
+              <a class="btn btn-view-more vm-lg" href="#">View More</a>
+            </div>
+            <div class="thumbnail-slider">
+              <div class="thumbnail-container">
+                <div class="item">
+                  <div class="wrapper-slider">
+                    <div class="wrapper-content">
+                      <img
+                        class="decor-testimonial"
+                        src="../static/images/quotation-mark.svg"
+                      />
+                      <p class="content-testimonial">
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum tortor
+                        quam, feugiat vitae, ultricies eget, tempor sit amet,
+                        ante. Donec eu libero sit amet quam egestas semper.
+                      </p>
+                    </div>
+                    <div class="testimonial-profile">
+                      <img
+                        class="image-profile-testimonial"
+                        src="../static/images/profile.jpg"
+                      />
+                      <div class="wrapper-profile-name">
+                        <p class="testimonial-name">Anwar Chairil.,SH.MH</p>
+                        <p class="testimonial-company">
+                          PT. Perkasa Karya Sejahtera
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="wrapper-slider">
+                    <div class="wrapper-content">
+                      <img
+                        class="decor-testimonial"
+                        src="../static/images/quotation-mark.svg"
+                      />
+                      <p class="content-testimonial">
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum tortor
+                        quam, feugiat vitae, ultricies eget, tempor sit amet,
+                        ante. Donec eu libero sit amet quam egestas semper.
+                      </p>
+                    </div>
+                    <div class="testimonial-profile">
+                      <img
+                        class="image-profile-testimonial"
+                        src="../static/images/profile2.jpg"
+                      />
+                      <div class="wrapper-profile-name">
+                        <p class="testimonial-name">Clara Bernandeth., SH</p>
+                        <p class="testimonial-company">
+                          PT. Antariksa Digdaya Alam
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="wrapper-slider">
+                    <div class="wrapper-content">
+                      <img
+                        class="decor-testimonial"
+                        src="../static/images/quotation-mark.svg"
+                      />
+                      <p class="content-testimonial">
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum tortor
+                        quam, feugiat vitae, ultricies eget, tempor sit amet,
+                        ante. Donec eu libero sit amet quam egestas semper.
+                      </p>
+                    </div>
+                    <div class="testimonial-profile">
+                      <img
+                        class="image-profile-testimonial"
+                        src="../static/images/profile.jpg"
+                      />
+                      <div class="wrapper-profile-name">
+                        <p class="testimonial-name">Anwar Chairil.,SH.MH</p>
+                        <p class="testimonial-company">
+                          PT. Perkasa Karya Sejahtera
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="wrapper-slider">
+                    <div class="wrapper-content">
+                      <img
+                        class="decor-testimonial"
+                        src="../static/images/quotation-mark.svg"
+                      />
+                      <p class="content-testimonial">
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum tortor
+                        quam, feugiat vitae, ultricies eget, tempor sit amet,
+                        ante. Donec eu libero sit amet quam egestas semper.
+                      </p>
+                    </div>
+                    <div class="testimonial-profile">
+                      <img
+                        class="image-profile-testimonial"
+                        src="../static/images/profile2.jpg"
+                      />
+                      <div class="wrapper-profile-name">
+                        <p class="testimonial-name">Clara Bernandeth., SH</p>
+                        <p class="testimonial-company">
+                          PT. Antariksa Digdaya Alam
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="wrapper-slider">
+                    <div class="wrapper-content">
+                      <img
+                        class="decor-testimonial"
+                        src="../static/images/quotation-mark.svg"
+                      />
+                      <p class="content-testimonial">
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum tortor
+                        quam, feugiat vitae, ultricies eget, tempor sit amet,
+                        ante. Donec eu libero sit amet quam egestas semper.
+                      </p>
+                    </div>
+                    <div class="testimonial-profile">
+                      <img
+                        class="image-profile-testimonial"
+                        src="../static/images/profile.jpg"
+                      />
+                      <div class="wrapper-profile-name">
+                        <p class="testimonial-name">Anwar Chairil.,SH.MH</p>
+                        <p class="testimonial-company">
+                          PT. Perkasa Karya Sejahtera
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="wrapper-slider">
+                    <div class="wrapper-content">
+                      <img
+                        class="decor-testimonial"
+                        src="../static/images/quotation-mark.svg"
+                      />
+                      <p class="content-testimonial">
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum tortor
+                        quam, feugiat vitae, ultricies eget, tempor sit amet,
+                        ante. Donec eu libero sit amet quam egestas semper.
+                      </p>
+                    </div>
+                    <div class="testimonial-profile">
+                      <img
+                        class="image-profile-testimonial"
+                        src="../static/images/profile2.jpg"
+                      />
+                      <div class="wrapper-profile-name">
+                        <p class="testimonial-name">Clara Bernandeth., SH</p>
+                        <p class="testimonial-company">
+                          PT. Antariksa Digdaya Alam
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="controls"></div>
+            </div>
+            <a class="btn btn-view-more vm-sm" href="#">View More</a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container mb-5">
+          <div class="row">
+            <div class="col-md-5">
+              <h5 class="footer-title">kioshukum.id</h5>
+              <p class="footer-description">
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas.
+              </p>
+              <ul class="wrapper-social-link">
+                <li class="social-link">
+                  <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </li>
+                <li class="social-link">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="social-link">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="social-link">
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5 class="footer-title">Services</h5>
+              <ul class="footer-menu">
+                <li><a href="#">Perizinan</a></li>
+                <li><a href="#">Ketenagakerjaan</a></li>
+                <li><a href="#">HAKI</a></li>
+                <li><a href="#">Probono</a></li>
+                <li><a href="#">Goverment Support</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5 class="footer-title">About</h5>
+              <ul class="footer-menu">
+                <li><a href="#">Legal And Terms</a></li>
+                <li><a href="#">Lawyers Team</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5 class="footer-title">Office</h5>
+              <p class="address">
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="copy-right">©2020 Codekece. Studio</p>
+        </div>
+      </footer>
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content modal-content-login">
+            <div class="modal-body login-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="left">
+                      <div class="wrapper-icon-form">
+                          <img class="image-icon" src="../static/images/team2.jpg">
+                          <img class="decore" src="../static/images/decore.svg">
+                      </div>
+                      <p class="quotes">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="right form-login">
+                    <h1 class="title">Login to get awesome services,
+                      Wherever you are</h1>
+                    <form action="#">
+                      <div class="wrapper-form-control">
+                        <div class="col">
+                          <label for="email" class="form-label">Email Address</label>
+                          <input type="email" class="form-control" placeholder="mail@gmail.com" id="email"/>
+                        </div>
+                      </div>
+                      <div class="wrapper-form-control">
+                        <div class="col">
+                          <label for="password" class="form-label">Password</label>
+                          <div class="wrapper-password">
+                            <input type="password" class="form-control password_input" placeholder="**********" id="password"/>
+                            <i class="preview_icon far fa-eye" id="togglePassword"></i>
+                          </div>
+                        </div>
+                        <a class="forgot" href="#">Forgot Password?</a>
+                      </div>
+    
+                      <button class="btn button-messages mb-4" type="submit">Log In Now</button>
+                      <p class="direct-link">Don’t have an account? <a href="register.html">Register</a></p>
+                    </form>
+    
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../static/js/slider.js"></script>
+    <script>
+      const togglePassword = document.querySelector('#togglePassword');
+      const password = document.querySelector('#password');
+
+      togglePassword.addEventListener('click', function (e) {
+        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        password.setAttribute('type', type);
+        this.classList.toggle('fa-eye-slash');
+      });
+    </script>
+  </body>
+</html>

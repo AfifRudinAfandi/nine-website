@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    
+    <link href="static/css/main.css" rel="stylesheet"/>
+    <link href="static/css/responsive.css" rel="stylesheet"/>
+
+    <title>Nine</title>
+  </head>
+  <body>
+    <div class="main-header">
+      <div class="header-main-wrapper fixed-top">
+        <div class="top-header">
+          <div class="nine-container">
+            <a class="navbar-brand" href="#">
+              <img class="header-brand" src="static/images/logo.svg">
+            </a>
+            <div class="d-flex">
+              <div class="wrapper-cart">
+                <div class="wrapper-cart-icon">
+                  <img class="cart-icon" src="static/images/ic-bag.svg">
+                  <div class="dots-notif"></div>
+                </div>
+                <span>1 Item</span>
+              </div>
+              <div class="dropdown-profile">
+                <a href="#" class="dropdown-triger">
+                  <img class="icon-dropdown" src="static/images/profile.svg">
+                  <span>hi, Rudy</span>
+                </a>
+                <div class="dropdown-content-profile">
+                  <a href="#">Log Out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="second-header">
+          <div class="nine-container">
+            <h5 class="header-title">Official Store</h5>
+            <div class="d-flex">
+              <div class="dropdown-main">
+                <div class="dropdown-main-button">
+                  <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="9" height="9" rx="1.9" fill="white" stroke="#88C540"/>
+                    <rect y="13" width="10" height="10" rx="2.4" fill="#88C540"/>
+                    <rect x="13" width="10" height="10" rx="2.4" fill="#88C540"/>
+                    <rect x="13" y="13" width="10" height="10" rx="2.4" fill="#88C540"/>
+                  </svg>
+                </div>
+                <div class="dropdown-content-main">
+                  <div class="left">
+                    <div class="left-item">
+                      <div class="official-brand">
+                        <h5>Official Brand</h5>
+                        <ul class="list-menu">
+                          <li><a class="link-menu" href="#">Luminos-LED</a></li>
+                          <li><a class="link-menu" href="#">SOUNDBLAX</a></li>
+                          <li><a class="link-menu" href="#">9POWER</a></li>
+                          <li><a class="link-menu" href="#">LX-TRIX</a></li>
+                          <li><a class="link-menu" href="#">GLOW-CARE</a></li>
+                          <li><a class="link-menu" href="#">PRORAX</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="left-item">
+                      <div class="about-nine">
+                        <h5>www.nine.co.id</h5>
+                        <ul class="list-menu">
+                          <li><a class="link-menu" href="#">Product</a></li>
+                          <li><a class="link-menu" href="#">Compare Product</a></li>
+                          <li><a class="link-menu" href="#">Warranty Check</a></li>
+                          <li><a class="link-menu" href="#">Support</a></li>
+                          <li><a class="link-menu" href="#">Blog</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <div class="row">
+                      <div class="right-wrapper">
+                        <div class="right-wrapper-cart">
+                          <div class="right-wrapper-cart-ic">
+                            <img class="cart-icon" src="static/images/ic-bag.svg">
+                            <div class="dots-notif"></div>
+                          </div>
+                          <span>13 Item</span>
+                        </div>
+                      </div>
+                      <div class="right-wrapper">
+                        <div class="right-wrapper-profile">
+                          <img class="icon-profile" src="static/images/profile.svg">
+                          <span>hi, Rudy</span>
+                        </div>
+                      </div>
+                      <div class="right-wrapper">
+                        <a class="btn button-checkout" href="#">Check Out</a>
+                      </div>
+                    </div>
+                    
+                    <table class="table table-cart">
+                      <tbody>
+                        <tr>
+                          <td>5 - LuminosLED</td>
+                          <td>1.500.000,-</td>
+                        </tr>
+                        <tr>
+                          <td>3 - 9POWER</td>
+                          <td>700.000,-</td>
+                        </tr>
+                        <tr>
+                          <td>2 - LX-TRIX</td>
+                          <td>200.000,-</td>
+                        </tr>
+                        <tr>
+                          <td>3 - PRORAX</td>
+                          <td>350.000,-</td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <td>Total</td>
+                          <td>IDR 2.700.000,-</td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+      </div>
+    </div>
+    <main class="main-wrapper">
+      <section class="banner banner-home">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="static/images/banner.jpg" class="d-block w-100">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="container">
+                  <p class="banner-lable">LUMINOS <span>LED</span></p>
+                  <h5 class="banner-title">bring to next level</h5>
+                  <p class="banner-desc">Makes your cars to next level with high quality led lamp</p>
+                  <a class="btn button-banner" href="#">Shop Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="static/images/banner.jpg" class="d-block w-100">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="container">
+                  <p class="banner-lable">LUMINOS <span>LED</span></p>
+                  <h5 class="banner-title">bring to next level</h5>
+                  <p class="banner-desc">Makes your cars to next level with high quality led lamp</p>
+                  <a class="btn button-banner" href="#">Shop Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="static/images/banner.jpg" class="d-block w-100">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="container">
+                  <p class="banner-lable">LUMINOS <span>LED</span></p>
+                  <h5 class="banner-title">bring to next level</h5>
+                  <p class="banner-desc">Makes your cars to next level with high quality led lamp</p>
+                  <a class="btn button-banner" href="#">Shop Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="rs-company">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-md-4">
+              <div class="hm-wp-rs">
+                <img class="rs-icon" src="static/images/guarante.svg">
+                <div class="hm-wp-rs-caption">
+                  <p class="rs-title">Product Guarantee</p>
+                  <p class="rs-desc">100% Genuine product guarantee</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="hm-wp-rs">
+                <img class="rs-icon" src="static/images/secure.svg">
+                <div class="hm-wp-rs-caption">
+                  <p class="rs-title">Secure Payment</p>
+                  <p class="rs-desc">Available with All Electronic Wallet</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="hm-wp-rs">
+                <img class="rs-icon" src="static/images/costumer.svg">
+                <div class="hm-wp-rs-caption">
+                  <p class="rs-title">24/7 Support</p>
+                  <p class="rs-desc">Friendly 24/7 Customer Support</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="product">
+        <ul class="nav nav-pills navigation-category" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="pills-cars-tab" data-bs-toggle="pill" href="#pills-cars" role="tab" aria-controls="pills-cars" aria-selected="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" fill="none">
+                <path d="M22.512 5.161l-.049-.055-.841-.812c.698-.158 1.448-.743 1.448-1.342 0-.698-.969-.946-1.797-.946-.865 0-.965.593-.976 1.011L18.129.925c-.441-.436-1.277-.78-1.902-.78H7.772c-.625 0-1.46.343-1.901.78L3.702 3.017c-.011-.419-.112-1.011-.976-1.011-.828 0-1.797.248-1.797.946 0 .6.751 1.184 1.449 1.342l-.841.812c-.019.018-.032.036-.049.055C.588 5.93 0 7.356 0 8.391v3.076c0 .746.294 1.424.77 1.929v1.193c0 .698.584 1.266 1.302 1.266h1.574c.718 0 1.301-.568 1.301-1.266v-.305h14.104v.305c0 .699.583 1.266 1.302 1.266h1.574c.718 0 1.301-.569 1.301-1.266v-1.193c.476-.505.77-1.182.77-1.929V8.391c.001-1.035-.587-2.461-1.487-3.23zM6.668 1.855c.305-.254.839-.447 1.105-.447h8.455c.266 0 .799.193 1.105.447l2.845 2.758H3.823l2.845-2.758zM.976 7.926c0-.757.593-1.372 1.324-1.372s3.121 1.403 3.121 2.16-2.39.582-3.121.582S.976 8.683.976 7.926zm3.972 5.009h-.505l-1.496.002c-.415-.129-.708-.28-.915-.442a1.3 1.3 0 0 1-.248-.252c-.063-.086-.109-.17-.139-.254-.186-.526.198-1.009.198-1.009h2.554L6.1 12.933l-1.152.001zm10.724.001H8.328a1.39 1.39 0 0 1-1.387-1.387h10.119c0 .766-.622 1.387-1.387 1.387zm.322-2.333H8.006c-.833 0-1.509-1.027-1.509-2.293h11.006c0 1.267-.676 2.293-1.509 2.293zm6.361 1.387c-.03.084-.076.168-.14.254a1.27 1.27 0 0 1-.248.252c-.207.162-.5.314-.915.442l-2.001-.002h-1.153l1.704-1.954h2.553c0 0 .385.482.199 1.009zm-.656-2.694c-.731 0-3.121.174-3.121-.582s2.39-2.16 3.121-2.16 1.325.615 1.325 1.372-.593 1.37-1.325 1.37z" fill="#939cb3"/>
+              </svg>
+              Cars<span class=" badge-category">13</span>
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-bike-tab" data-bs-toggle="pill" href="#pills-bike" role="tab" aria-controls="pills-bike" aria-selected="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="17">
+                <path d="M5.48 8.064h4.829a2.86 2.86 0 0 1-.469-1.546 2.92 2.92 0 0 1 .299-1.267H4.073c-.777 0-1.407.63-1.407 1.407v.679C1.573 7.883.632 8.731 0 9.821l1.217.706c.88-1.519 2.514-2.463 4.263-2.463zm3.815 1.407l-.309 1.233a3.51 3.51 0 0 0-2.662-1.233 3.52 3.52 0 0 0-3.516 3.516 3.52 3.52 0 0 0 3.516 3.516c1.698 0 3.119-1.21 3.445-2.813h3.156c1.435 0 2.762-.858 3.296-2.18l.836-2.04H9.295zm-2.971 5.626c-1.163 0-2.11-.946-2.11-2.11a2.11 2.11 0 0 1 2.11-2.11c.895 0 1.669.577 1.967 1.407h-2.67v1.406h2.684c-.291.817-1.065 1.407-1.98 1.407zm14.16-5.626c-.141 0-.281.028-.422.042l-.942-2.855h2.068v-4.22h-2.11c-.464 0-.886.155-1.238.408l-.45-1.397A2.1 2.1 0 0 0 14.984.042L13.31.379l.281 1.378 1.66-.338c.352-.056.703.141.802.478l.76 2.283c-.123 0-.259.025-.464.056l-3.863.76c-.717.155-1.238.788-1.238 1.519a1.54 1.54 0 0 0 1.547 1.547h4.032c.431 0 .823-.176 1.111-.464l.788 2.363c-1.041.605-1.758 1.73-1.758 3.024a3.52 3.52 0 0 0 3.517 3.516A3.52 3.52 0 0 0 24 12.987a3.52 3.52 0 0 0-3.516-3.516zm0 5.626c-1.168 0-2.11-.942-2.11-2.11a2.12 2.12 0 0 1 .816-1.66l.633 1.885 1.322-.45-.619-1.885c1.139.028 2.068.957 2.068 2.11 0 1.168-.942 2.11-2.11 2.11z" fill="#939cb3"/>
+              </svg>
+              Motorbike<span class=" badge-category">13</span>
+            </a>
+          </li>
+        </ul>
+        <div class="nine-container">
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane tab-content-item fade show active" id="pills-cars" role="tabpanel" aria-labelledby="pills-cars-tab">
+              <div class="row">
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="product-image" src="static/images/product-1.jpg">
+                    <p class="product-title">LUMINOS - <span>LED</span></p>
+                    <p class="product-count">13 product</p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="product-image" src="static/images/product-2.jpg">
+                    <p class="product-title">SOUND<span>BLAX</span></p>
+                    <p class="product-count">23 product</p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="product-image" src="static/images/product-3.jpg">
+                    <p class="product-title">9<span>POWER</span></p>
+                    <p class="product-count">13 product</p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="product-image" src="static/images/product-4.jpg">
+                    <p class="product-title">LX - <span>TRIX</span></p>
+                    <p class="product-count">13 product</p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="product-image" src="static/images/product-5.jpg">
+                    <p class="product-title">GLOW - <span>CARE</span></p>
+                    <p class="product-count">13 product</p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="product-image" src="static/images/product-6.jpg">
+                    <p class="product-title">PRO<span>RAX</span></p>
+                    <p class="product-count">13 product</p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="ic-show-all" src="static/images/arrow-right.svg">
+                    <p class="product-show-all">View All Product</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane tab-content-item fade" id="pills-bike" role="tabpanel" aria-labelledby="pills-bike-tab">
+              <div class="row">
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="product-image" src="static/images/product-6.jpg">
+                    <p class="product-title">PRO<span>RAX</span></p>
+                    <p class="product-count">13 product</p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="product-image" src="static/images/product-1.jpg">
+                    <p class="product-title">LUMINOS - <span>LED</span></p>
+                    <p class="product-count">13 product</p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="product-image" src="static/images/product-4.jpg">
+                    <p class="product-title">LX - <span>TRIX</span></p>
+                    <p class="product-count">13 product</p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="product-image" src="static/images/product-3.jpg">
+                    <p class="product-title">9<span>POWER</span></p>
+                    <p class="product-count">13 product</p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="product-image" src="static/images/product-5.jpg">
+                    <p class="product-title">GLOW - <span>CARE</span></p>
+                    <p class="product-count">13 product</p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="product-image" src="static/images/product-2.jpg">
+                    <p class="product-title">SOUND<span>BLAX</span></p>
+                    <p class="product-count">23 product</p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a class="wrapper-item-product" href="#">
+                    <img class="ic-show-all" src="static/images/arrow-right.svg">
+                    <p class="product-show-all">View All Product</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu-bottom">
+        <a class="link-bottom" href="#">Compare Product</a>
+        <a class="link-bottom" href="#">Warranty Check</a>
+        <a class="link-bottom" href="#">My Account</a>
+      </section>
+      <footer>
+        <div class="nine-container">
+          <div class="row">
+            <div class="col-md-12">
+              <img class="footer-brand" src="static/images/logo.svg">
+            </div>
+            <div class="col-md-3">
+              <p class="footer-nine-title">PT. Sembilan Indonesia</p>
+              <p class="footer-nine-address">Jl. Utama Sakti 8, No.12H-I Wijaya Kusuma, Jakarta 11460</p>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-menu-footer">
+                <li>
+                  <a class="item-menu-footer" href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a class="item-menu-footer" href="#">Legal Info</a>
+                </li>
+                <li>
+                  <a class="item-menu-footer" href="#">Contact Us</a>
+                </li>
+              </ul>
+              <p class="copy-right">Copyright © 2021 SEMBILAN INDONESIA</p>
+            </div>
+            <div class="col-md-3">
+              <ul class="list-social-link">
+                <li>
+                  <a class="item-social-link" href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a class="item-social-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li>
+                  <a class="item-social-link" href="#"><i class="fas fa-envelope"></i></a>
+                </li>
+              </ul>
+              <a class="footer-link-website" href="#">www.nine.co.id</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>

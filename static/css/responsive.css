@@ -1,5 +1,76 @@
 @media (max-width: 575.98px) {
-    
+  .main-header .header-main-wrapper .top-header{
+    padding-top: 24px;
+  }
+  .main-header .wrapper-cart span{
+    display: none;
+  }
+  .main-header .dropdown-profile .dropdown-triger span{
+    display: none;
+  }
+  .main-header .dropdown-profile .dropdown-triger .icon-dropdown {
+    width: 26px;
+    height: 26px;
+  }
+  .main-header .dropdown-profile .dropdown-triger{
+    padding: 8px 18px 8px 14px;
+  }
+  .main-header .dropdown-profile{
+    margin-left: 0;
+  }
+  .main-header .wrapper-cart{
+    margin-right: 0;
+  }
+  .main-header .wrapper-cart::after{
+    right: 0;
+  }
+  .main-header .dropdown-profile .dropdown-content-profile {
+    right: 0;
+    left: auto;
+  }
+  .main-header .header-main-wrapper .second-header .header-title{
+    font-size: 22px;
+  }
+  .second-header .wrapper-search{
+    display: none;
+  }
+  .main-header .second-header .dropdown-main .dropdown-content-main{
+    border-radius: 0;
+  }
+  .main-header .second-header .dropdown-main .dropdown-content-main .left{
+    width: 100%;
+    padding: 22px 16px;
+  }
+  .main-header .second-header .dropdown-content-main .right{
+    width: calc(100% - 32px);
+    padding: 22px 18px;
+    margin: 0px 16px 18px 16px;
+    border-radius: 12px;
+  }
+  .main-header .second-header .dropdown-main .dropdown-wrapper-content-main{
+    max-height: calc(100vh - 134px);
+    overflow-x: hidden;
+    padding-top: 0;
+    top: calc(100% + 1px);
+  }
+  .main-header .second-header .dropdown-content-main .right .right-wrapper{
+    display: none;
+  }
+  .main-header .second-header .dropdown-content-main .right .right-wrapper:nth-child(1){
+    display: block;
+  }
+  .main-header .second-header .dropdown-content-main .right .right-wrapper-cart::after{
+    display: none;
+  }
+  .main-header
+  .second-header
+  .dropdown-content-main
+  .right
+  .button-checkout-sm {
+    display: block;
+    max-width: 90%;
+    margin: 18px auto 0px auto;
+}
 }
 @media (min-width: 576px) {
   .nine-container {

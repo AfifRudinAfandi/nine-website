@@ -129,7 +129,7 @@
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: var(--white);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -211,6 +211,10 @@
 }
 .second-header .wrapper-search .input-search::placeholder{
   color: var(--mediumgrey);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
 }
 .second-header .wrapper-search input{
   border: none;
@@ -221,32 +225,36 @@
 
 .main-header .second-header .dropdown-main {
   cursor: pointer;
-  padding: 19px 13px;
+  padding: 14px;
 }
-.main-header .second-header .dropdown-main:hover .dropdown-content-main {
-  display: flex;
+.main-header .second-header .dropdown-main:hover .dropdown-wrapper-content-main{
+  display: block;
 }
-.main-header .second-header .dropdown-main:focus .dropdown-content-main {
-  display: flex;
+.main-header .second-header .dropdown-main:focus .dropdown-wrapper-content-main{
+  display: block;
+}
+.main-header .second-header .dropdown-main .dropdown-wrapper-content-main{
+  display: none;
+  position: absolute;
+  padding-top: 20px;
+  top: calc(100% - 16px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: 100%;
+  max-width: 1200px;
+  background-clip: padding-box;
 }
 .main-header .second-header .dropdown-main .dropdown-content-main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;
-  display: none;
   width: 100%;
-  max-width: 1200px;
   padding: 0;
-  margin: 0.125rem 0 0;
   background-color: var(--white);
-  background-clip: padding-box;
   border-radius: 4px;
   overflow: hidden;
+  box-shadow: rgb(0 0 0 / 4%) 0px 4px 6px -1px;
 }
 .main-header .second-header .dropdown-main .dropdown-content-main .left {
   padding: 30px 38px 26px 38px;
@@ -338,6 +346,21 @@
   .right
   .right-wrapper
   .button-checkout {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: var(--white);
+  padding: 8px 32px;
+  background-color: var(--lightgreen);
+}
+.main-header
+  .second-header
+  .dropdown-content-main
+  .right
+  .button-checkout-sm {
+    display: none;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -727,18 +750,8 @@ section.product .wrapper-item-product .ic-show-all{
   pointer-events: none;
 }
 section.product .wrapper-item-product .product-title{
-  font-style: normal;
-  font-weight: 700;
-  max-width: 100%;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--darktext);
-  margin-bottom: 8px;
-}
-section.product .wrapper-item-product .product-title span{
-  color: var(--lightgreen);
+  width: 50%;
+  margin-bottom: 12px;
 }
 section.product .wrapper-item-product .product-count{
   font-style: normal;

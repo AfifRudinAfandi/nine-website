@@ -85,6 +85,12 @@
     max-width: 90%;
     margin: 18px auto 0px auto;
   }
+  .second-header .dropdown-content-main .left .left-mobile-item{
+    display: block;
+  }
+  .second-header .dropdown-content-main .left .left-item{
+    display: none;
+  }
   section.banner.banner-home .carousel .carousel-caption {
     top: 28px;
   }

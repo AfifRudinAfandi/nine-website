@@ -161,6 +161,9 @@
   footer .list-social-link{
     margin-bottom: 20px;
   }
+  footer .copy-right{
+    font-size: 12px;
+  }
 }
 @media (min-width: 576px) {
   .nine-container {

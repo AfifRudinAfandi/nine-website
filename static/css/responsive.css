@@ -56,6 +56,9 @@
     width: 100%;
     padding: 22px 16px;
   }
+  .main-header .second-header .dropdown-main .dropdown-content-main .left .list-menu .link-menu{
+    color: #141A2B;
+  }
   .main-header .second-header .dropdown-content-main .right {
     width: calc(100% - 32px);
     padding: 22px 18px;

@@ -37,8 +37,17 @@
   .main-header .header-main-wrapper .second-header .header-title {
     font-size: 22px;
   }
-  .second-header .wrapper-search {
-    display: none;
+  .second-header .wrapper-search:hover{
+    position: absolute;
+    left: 12px;
+    right: 61px;
+    top: 9px;
+  }
+  .second-header .wrapper-search .input-search{
+    transition: none;
+  }
+  .second-header .wrapper-search:hover > .input-search {
+    width: 100%;
   }
   .main-header .second-header .dropdown-main .dropdown-content-main {
     border-radius: 0;

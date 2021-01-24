@@ -231,7 +231,7 @@
 }
 .accordion-mobile-menu .accordion-item:first-of-type .accordion-button, .accordion-mobile-menu
 .accordion-item:last-of-type
-.accordion-button.collapsed,.accordion-mobile-menu .accordion-flush .accordion-button,.accordion-mobile-menu .accordion-button:not(.collapsed){
+.accordion-button.collapsed,.accordion-mobile-menu .accordion-flush .accordion-button,.accordion-mobile-menu .accordion-button:not(.collapsed),.accordion-mobile-menu .accordion-item:last-of-type .accordion-collapse{
   border: none;
   font-style: normal;
   font-weight: 500;

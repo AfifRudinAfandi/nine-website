@@ -1165,7 +1165,7 @@ section.product-list .pl-card-product .button-add-cart{
   position: absolute;
   top: 16px;
   right: 16px;
-  font-size: 12px;
+  font-size: 14px;
   padding: 6px;
   background-color: var(--lightgrey);
   color: var(--greytext);
@@ -1179,6 +1179,10 @@ section.product-list .pl-card-product .button-add-cart{
   z-index: 40;
   display: none;
   transition: .1s ease-in;
+}
+section.product-list .pl-card-product .button-add-cart:hover{
+  background-color: var(--lightgreen);
+  color: var(--white);
 }
 section.product-list .pl-card-product .button-add-cart i{
   line-height: inherit;

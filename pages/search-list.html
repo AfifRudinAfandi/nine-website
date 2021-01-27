@@ -52,11 +52,11 @@
             <h5 class="header-title">Official Store</h5>
             <div class="d-flex align-items-center">
               <form action="#">
-                <div class="wrapper-search">
+                <div class="wrapper-search active" id="FrameInput">
                   <button class="btn search-btn" type="submit">
                     <img class="search-ic" src="../static/images/ic-search.svg">
                   </button>
-                  <input class="input-search" type="text" name="" placeholder="Type to Search">
+                  <input class="input-search" id="SearchInput" type="text" name="" placeholder="Type to Search" value="luminosled">
                 </div>
               </form>
               <div class="dropdown-main">
@@ -200,8 +200,114 @@
     </nav>
     <main class="main-wrapper">
         <section class="product-list">
+          <div class="pl-wrapper-mobile-filter">
+            <div class="dropup">
+              <button type="button" class="btn dropdown-toggle pl-button-filter-mobile" data-bs-toggle="dropdown" aria-expanded="false">
+                Category<span class="badge-filter-mobile">2</span>
+              </button>
+              
+              <ul class="dropdown-menu pl-filter-mobile-menu">
+                <li class="pl-filter-wrapper-item">
+                  <p class="pl-title-mobile-filter">Product Category</p>
+                </li>
+                <li class="pl-filter-wrapper-item">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1" checked>
+                        <label class="form-check-label" for="flexCheckDefault1">
+                            Cars
+                        </label>
+                        <span class="badge-filter">13</span>
+                    </div>
+                </li>
+                <li class="pl-filter-wrapper-item">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                        <label class="form-check-label" for="flexCheckDefault2">
+                            Motorbike
+                        </label>
+                        <span class="badge-filter">13</span>
+                    </div>
+                </li>
+              </ul>
+            </div>
+            <div class="dropup">
+              <button type="button" class="btn dropdown-toggle pl-button-filter-mobile" data-bs-toggle="dropdown" aria-expanded="false">
+                Filter<span class="badge-filter-mobile">2</span>
+              </button>
+              <ul class="dropdown-menu pl-filter-mobile-menu">
+                <li class="pl-filter-wrapper-item">
+                  <p class="pl-title-mobile-filter">Product Filter</p>
+                </li>
+                <li class="pl-filter-wrapper-item">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="CheckFilter1" checked>
+                      <label class="form-check-label" for="CheckFilter1">
+                          LED
+                      </label>
+                      <span class="badge-filter">100</span>
+                  </div>
+              </li>
+              <li class="pl-filter-wrapper-item">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="CheckFilter2">
+                      <label class="form-check-label" for="CheckFilter2">
+                          LED Strips
+                      </label>
+                      <span class="badge-filter">5</span>
+                  </div>
+              </li>
+              <li class="pl-filter-wrapper-item">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="CheckFilter3">
+                      <label class="form-check-label" for="CheckFilter3">
+                          LED Cabin
+                      </label>
+                      <span class="badge-filter">4</span>
+                  </div>
+              </li>
+              <li class="pl-filter-wrapper-item">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="CheckFilter4">
+                      <label class="form-check-label" for="CheckFilter4">
+                          Sound
+                      </label>
+                      <span class="badge-filter">8</span>
+                  </div>
+              </li>
+              <li class="pl-filter-wrapper-item">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="CheckFilter5">
+                      <label class="form-check-label" for="CheckFilter5">
+                          Rack
+                      </label>
+                      <span class="badge-filter">43</span>
+                  </div>
+              </li>
+              
+              <li class="pl-filter-wrapper-item">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="CheckFilter6">
+                      <label class="form-check-label" for="CheckFilter6">
+                          Cleaning
+                      </label>
+                      <span class="badge-filter">12</span>
+                  </div>
+              </li>
+              <li class="pl-filter-wrapper-item">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="CheckFilter7">
+                      <label class="form-check-label" for="CheckFilter7">
+                          Other
+                      </label>
+                      <span class="badge-filter">100</span>
+                  </div>
+              </li>
+              </ul>
+            </div>
+          </div>
+          
             <div class="nine-container">
-                <div class="row gx-5">
+                <div class="row">
                     <div class="col-md-3">
                         <div class="pl-parent-filter">
                             <p class="pl-filter-title">Filter Pencarian</p>
@@ -381,19 +487,6 @@
                                         <div class="col-md-3">
                                             <a class="pl-link-item" href="#">
                                                 <div class="pl-card-product">
-                                                    <img class="pl-product-image" src="../static/images/product-7.jpg">
-                                                    <p class="pl-product-tag"><i class="fas fa-check-circle"></i>lumnios-LED</p>
-                                                    <p class="pl-product-title">LED H4 - CREE</p>
-                                                    <p class="pl-product-price">Rp. 350.000</p>
-                                                    <button class="btn button-add-cart" data-bs-toggle="tooltip" data-bs-placement="top" title="Add To Cart">
-                                                        <i class="fas fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <a class="pl-link-item" href="#">
-                                                <div class="pl-card-product">
                                                     <img class="pl-product-image" src="../static/images/product-8.jpg">
                                                     <p class="pl-product-tag"><i class="fas fa-check-circle"></i>lumnios-LED</p>
                                                     <p class="pl-product-title">LED SINGLE - CREE</p>
@@ -404,7 +497,19 @@
                                                 </div>
                                             </a>
                                         </div>
-                                        
+                                        <div class="col-md-3">
+                                          <a class="pl-link-item" href="#">
+                                              <div class="pl-card-product">
+                                                  <img class="pl-product-image" src="../static/images/product-7.jpg">
+                                                  <p class="pl-product-tag"><i class="fas fa-check-circle"></i>lumnios-LED</p>
+                                                  <p class="pl-product-title">LED H4 - CREE</p>
+                                                  <p class="pl-product-price">Rp. 350.000</p>
+                                                  <button class="btn button-add-cart" data-bs-toggle="tooltip" data-bs-placement="top" title="Add To Cart">
+                                                      <i class="fas fa-plus"></i>
+                                                  </button>
+                                              </div>
+                                          </a>
+                                      </div>
                                         <div class="col-md-3">
                                             <a class="pl-link-item" href="#">
                                                 <div class="pl-card-product">
@@ -580,7 +685,6 @@
             }
           }
         );
-      </script>
-      </script>
+    </script>
   </body>
 </html>

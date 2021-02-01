@@ -290,10 +290,19 @@
                           <div class="pd-transaction-right">
                             <p class="pd-title-transaction">Sub Total</p>
                             <p class="pd-title-value-sub-total">Rp. 3.500.000 <span>/ 10 Item</span></p>
-                            <div class="pd-wrapper-button-group-transaction">
-                              <button class="btn button-buy">Buy</button>
-                              <button class="btn button-check-out">Check Ourt</button>
-                              <button class="btn button-heart"><i class="far fa-heart"></i></button>
+                          </div>
+                          <div class="pd-wrapper-button-group-transaction">
+                            <button class="btn button-buy">Buy</button>
+                            <button class="btn button-check-out">Check Out</button>
+                            <button class="btn button-heart"><i class="far fa-heart"></i></button>
+                          </div>
+                          <div class="pd-mobile-menu">
+                            <div class="pd-mobile-menu-left">
+                              <p class="pd-title-transaction-mobile">Sub Total</p>
+                              <p class="pd-title-value-sub-total">Rp. 3.500.000 <span>/ 10 Item</span></p>
+                            </div>
+                            <div class="pd-mobile-menu-right">
+                              <button class="btn button-check-out">Check Out</button>
                             </div>
                           </div>
                         </div>
@@ -469,6 +478,12 @@
             pagination : false,
             arrows     : false,
             cover      : true,
+            breakpoints : {
+                '767': {
+                    
+	            pagination : true,
+                }
+            },
         } ); // do not call mount() here.
         
         primarySlider.sync( secondarySlider ).mount();

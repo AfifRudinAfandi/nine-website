@@ -1457,6 +1457,7 @@ section.product-detail .pd-wrapper-transaction{
   padding: 20px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 section.product-detail .pd-wrapper-transaction .pd-transaction-left .pd-wrapper-add-value-outer{
   display: flex;
@@ -1544,18 +1545,20 @@ section.product-detail .pd-wrapper-transaction .pd-transaction-right .pd-title-v
   color: var(--greytext);
   margin-left: 6px;
 }
-section.product-detail .pd-wrapper-transaction .pd-transaction-right .pd-wrapper-button-group-transaction{
+section.product-detail .pd-wrapper-transaction .pd-wrapper-button-group-transaction{
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex: 1 0 100%;
+  justify-content: flex-end;
 }
-section.product-detail .pd-wrapper-transaction .pd-transaction-right .pd-wrapper-button-group-transaction button{
+section.product-detail .pd-wrapper-transaction .pd-wrapper-button-group-transaction button{
   margin-right: 6px;
 }
-section.product-detail .pd-wrapper-transaction .pd-transaction-right .pd-wrapper-button-group-transaction button:nth-last-of-type(1){
+section.product-detail .pd-wrapper-transaction .pd-wrapper-button-group-transaction button:nth-last-of-type(1){
   margin-right: 0;
 }
-section.product-detail .pd-wrapper-transaction .pd-transaction-right .pd-wrapper-button-group-transaction .button-buy{
+section.product-detail .pd-wrapper-transaction .pd-wrapper-button-group-transaction .button-buy{
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1564,12 +1567,12 @@ section.product-detail .pd-wrapper-transaction .pd-transaction-right .pd-wrapper
   color:var(--lightgreen);
   height: 33px;
   padding: 0;
-  width: 80px;
+  width: 94px;
   background-color: var(--white);
   border: 1px solid var(--lightgreen);
   border-radius: 2px;
 }
-section.product-detail .pd-wrapper-transaction .pd-transaction-right .pd-wrapper-button-group-transaction .button-check-out{
+section.product-detail .pd-wrapper-transaction .pd-wrapper-button-group-transaction .button-check-out{
   font-style: normal;
   font-weight: normal;
   width: 136px;
@@ -1583,7 +1586,7 @@ section.product-detail .pd-wrapper-transaction .pd-transaction-right .pd-wrapper
   border: 1px solid var(--lightgreen);
   border-radius: 2px;
 }
-section.product-detail .pd-wrapper-transaction .pd-transaction-right .pd-wrapper-button-group-transaction .button-heart{
+section.product-detail .pd-wrapper-transaction .pd-wrapper-button-group-transaction .button-heart{
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1598,6 +1601,50 @@ section.product-detail .pd-wrapper-transaction .pd-transaction-right .pd-wrapper
   background-color: var(--white);
   border: 1px solid #CDD1DB;
   border-radius: 2px;
+}
+section.product-detail .pd-wrapper-transaction .pd-mobile-menu{
+  display: none;
+}
+.pd-mobile-menu .pd-mobile-menu-left .pd-title-transaction-mobile{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #939CB3;
+  margin-bottom: 3px;
+}
+.pd-mobile-menu .pd-mobile-menu-left .pd-title-value-sub-total{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #88C540;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pd-mobile-menu .pd-mobile-menu-left .pd-title-value-sub-total span{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: capitalize;
+  color: #939CB3;
+  margin-left: 3px;
+}
+.pd-mobile-menu .pd-mobile-menu-right .button-check-out{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 12px 20px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color:var(--white);
+  background-color: var(--lightgreen);
+  border: 1px solid var(--lightgreen);
+  border-radius: 12px;
 }
 section.product-detail .nav-tabs.pd-tab-spesification{
   border-bottom:  0.5px solid #CDD1DB;

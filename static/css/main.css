@@ -1207,15 +1207,12 @@ section.product-list .pl-wrapper-product-sort .form-select{
   background-color: var(--lightgreen);
   color: var(--white);
 }
-.pl-card-product .button-add-cart i{
-  line-height: inherit;
-}
 .pl-link-item{
   text-decoration: none;
   position: relative;
   z-index: 30;
 }
-.pl-card-product .button-add-cart{
+.pl-link-item:hover .pl-card-product .button-add-cart {
   display: flex;
 }
 

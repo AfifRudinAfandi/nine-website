@@ -14,7 +14,6 @@
     
     <link href="../static/css/main.css" rel="stylesheet"/>
     <link href="../static/css/responsive.css" rel="stylesheet"/>
-    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css" rel="stylesheet">
 
     <title>Nine</title>
   </head>
@@ -200,210 +199,119 @@
       </div>
     </nav>
     <main class="main-wrapper">
-        <section class="product-detail">
+        <section class="banner-compare">
+            <div class="nine-container">
+                <h2 class="banner-compare-title">Compare Product</h2>
+            </div>
+        </section>
+        <section class="compare-product">
             <div class="nine-container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="pd-wrapper-img">
-                          <div id="primary-slider" class="splide">
-                            <div class="splide__track">
-                              <ul class="splide__list">
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product2.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product2.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product2.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product2.jpg">
-                                </li>
-                              </ul>
+                    <div class="col-md-4">
+                        <div class="cp-wrapper-search-compare">
+                            <p class="cp-search-title">Search Product</p>
+                            <form action="#">
+                                <div class="cp-wrapper-input">
+                                    <input type="text" class="form-control">
+                                    <button type="submit" class="btn button-search">Search</button>
+                                </div>
+                            </form>
+                            <p class="cp-search-info">Masukkan nama atau merk produk</p>
+                        </div>
+                        <div class="cp-wrapper-parent">
+                            <div class="cp-wrapper-product">
+                                <img class="cp-product-img" src="../static/images/detail-product.jpg">
+                                <p class="cp-product-tag"><i class="fas fa-check-circle"></i>lumnios-LED</p>
+                                <p class="cp-title-product">LED H11 - PNP</p>
+                                <p class="cp-title-category">Kategori Produk : <span>Aksesoris</span><span>Mobil</span><span>Lampu led</span></p>
+                                <p class="cp-title-value-sub-total">Rp. 3.500.000 <span>/ 2 Item</span></p>
                             </div>
-                          </div>
-                          <div id="secondary-slider" class="splide">
-                            <div class="splide__track">
-                              <ul class="splide__list">
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product2.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product2.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product2.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product.jpg">
-                                </li>
-                                <li class="splide__slide">
-                                  <img src="../static/images/detail-product2.jpg">
-                                </li>
-                              </ul>
+                            <div class="cp-wrapper-specification">
+                                <h5 class="cp-header-detail">Spesifikasi</h5>
+                                <p>Daya : 15W<br>
+                                    Lumens : 1500LW<br>
+                                    Voltase : AC/DC 6-80v<br>
+                                    Material : COB LED Chip<br>
+                                    Waktu Bekerja : 50.000 Jam<br>
+                                    Jumlah LED : 2 Pcs<br>
+                                    Temperatur Warna : 4300K - 10.000K<br>
+                                    Warna : Putih</p>
                             </div>
-                          </div>
+                            <div class="cp-wrapper-specification">
+                                <h5 class="cp-header-detail">Fitur</h5>
+                                <p>1. Tidak perlu repot instalasi, plug-and-play & sangat cocok untuk rumah lampu orisinil.<br>
+                                    2. Dibuat dengan LED COB impor berkualitas tinggi yang dapat menahan goncangan dan getaran.<br>
+                                    3. Sudut pandang 360 derajat menghilangkan hot spot.<br>
+                                    4. Tidak ada Polaritas yang mencegah pemba- karan dari instalasi yang salah. Salah satu bahan alumunium kualitas terbaik untuk mengurangi panas.<br>
+                            </div>
+                            <div class="cp-wrapper-button">
+                                <button class="btn button-buy">Buy</button>
+                                <button class="btn button-check-out">Check Out</button>
+                                <button class="btn button-heart"><i class="far fa-heart"></i></button>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <p class="pd-product-tag"><i class="fas fa-check-circle"></i>lumnios-LED</p>
-                        <div class="pd-wrapper-short-desc">
-                            <p class="pd-title-product">LED H11 - PNP</p>
-                            <div class="pd-wrapper-button-compare">
-                              <button class="btn pd-button-compare">Compare</button>
-                            </div>
-                            <p class="pd-title-category">Kategori Produk : <span>Aksesoris</span><span>Mobil</span><span>Lampu led</span></p>
+                    <div class="col-md-4">
+                        <div class="cp-wrapper-search-compare">
+                            <p class="cp-search-title">Search Product</p>
+                            <form action="#">
+                                <div class="cp-wrapper-input">
+                                    <input type="text" class="form-control">
+                                    <button type="submit" class="btn button-search">Search</button>
+                                </div>
+                            </form>
+                            <p class="cp-search-info">Masukkan nama atau merk produk</p>
                         </div>
-                        <p class="pc-short-desc">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. </p>
-                        <div class="pd-wrapper-transaction">
-                          <div class="pd-transaction-left">
-                            <p class="pd-title-transaction">Jumlah Barang</p>
-                            <div class="pd-wrapper-add-value-outer">
-                              <div class="pd-wrapper-add-value">
-                                <button class="btn button-add-value"><i class="fas fa-minus"></i></button><input maxlength="2" class="form-control input-value" type="tell" value="1"><button class="btn button-add-value"><i class="fas fa-plus"></i></button>
-                              </div>
-                              <p class="pd-stock-title">*) 100 Stock Tersedia</p>
+                        <div class="cp-wrapper-parent">
+                            <div class="cp-wrapper-product">
+                                <img class="cp-product-img" src="../static/images/detail-product.jpg">
+                                <p class="cp-product-tag"><i class="fas fa-check-circle"></i>lumnios-LED</p>
+                                <p class="cp-title-product">LED H11 - PNP</p>
+                                <p class="cp-title-category">Kategori Produk : <span>Aksesoris</span><span>Mobil</span><span>Lampu led</span></p>
+                                <p class="cp-title-value-sub-total">Rp. 3.500.000 <span>/ 2 Item</span></p>
                             </div>
-                          </div>
-                          <div class="pd-transaction-right">
-                            <p class="pd-title-transaction">Sub Total</p>
-                            <p class="pd-title-value-sub-total">Rp. 3.500.000 <span>/ 10 Item</span></p>
-                          </div>
-                          <div class="pd-wrapper-button-group-transaction">
-                            <button class="btn button-buy">Buy</button>
-                            <button class="btn button-check-out">Check Out</button>
-                            <button class="btn button-heart"><i class="far fa-heart"></i></button>
-                          </div>
-                          <div class="pd-mobile-menu">
-                            <div class="pd-mobile-menu-left">
-                              <p class="pd-title-transaction-mobile">Sub Total</p>
-                              <p class="pd-title-value-sub-total">Rp. 3.500.000 <span>/ 10 Item</span></p>
+                            <div class="cp-wrapper-specification">
+                                <h5 class="cp-header-detail">Spesifikasi</h5>
+                                <p>Daya : 15W<br>
+                                    Lumens : 1500LW<br>
+                                    Voltase : AC/DC 6-80v<br>
+                                    Material : COB LED Chip<br>
+                                    Waktu Bekerja : 50.000 Jam<br>
+                                    Jumlah LED : 2 Pcs<br>
+                                    Temperatur Warna : 4300K - 10.000K<br>
+                                    Warna : Putih</p>
                             </div>
-                            <div class="pd-mobile-menu-right">
-                              <button class="btn button-check-out">Check Out</button>
+                            <div class="cp-wrapper-specification">
+                                <h5 class="cp-header-detail">Fitur</h5>
+                                <p>1. Tidak perlu repot instalasi, plug-and-play & sangat cocok untuk rumah lampu orisinil.<br>
+                                    2. Dibuat dengan LED COB impor berkualitas tinggi yang dapat menahan goncangan dan getaran.<br>
+                                    3. Sudut pandang 360 derajat menghilangkan hot spot.<br>
+                                    4. Tidak ada Polaritas yang mencegah pemba- karan dari instalasi yang salah. Salah satu bahan alumunium kualitas terbaik untuk mengurangi panas.<br>
                             </div>
-                          </div>
+                            <div class="cp-wrapper-button">
+                                <button class="btn button-buy">Buy</button>
+                                <button class="btn button-check-out">Check Out</button>
+                                <button class="btn button-heart"><i class="far fa-heart"></i></button>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                      <ul class="nav nav-tabs pd-tab-spesification" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                          <a class="nav-link active" id="spesifikasi-tab" data-bs-toggle="tab" href="#spesifikasi" role="tab" aria-controls="spesifikasi" aria-selected="true">Spesifikasi</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <a class="nav-link" id="fitur-tab" data-bs-toggle="tab" href="#fitur" role="tab" aria-controls="fitur" aria-selected="false">Fitur</a>
-                        </li>
-                      </ul>
-                      <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane pd-tab-content-spesification fade show active" id="spesifikasi" role="tabpanel" aria-labelledby="spesifikasi-tab">
-                          <p>Daya : 15W <br>
-                            Lumens : 1500LW <br>
-                            Voltase : AC/DC 6-80v <br>
-                            Material : COB LED Chip <br>
-                            Waktu Bekerja : 50.000 Jam <br>
-                            Jumlah LED : 2 Pcs <br>
-                            Temperatur Warna : 4300K - 10.000K <br>
-                            Warna : Putih</p>
+                    <div class="col-md-4">
+                        <div class="cp-wrapper-search-compare">
+                            <p class="cp-search-title">Search Product</p>
+                            <form action="#">
+                                <div class="cp-wrapper-input">
+                                    <input type="text" class="form-control">
+                                    <button type="submit" class="btn button-search">Search</button>
+                                </div>
+                            </form>
+                            <p class="cp-search-info">Masukkan nama atau merk produk</p>
                         </div>
-                        <div class="tab-pane pd-tab-content-spesification fade" id="fitur" role="tabpanel" aria-labelledby="fitur-tab">
-                          <p>1. Tidak perlu repot instalasi, plug-and-play & sangat cocok untuk rumah lampu orisinil.<br>
-                            2. Dibuat dengan LED COB impor berkualitas tinggi yang dapat menahan goncangan dan getaran.<br>
-                            3. Sudut pandang 360 derajat menghilangkan hot spot.<br>
-                            4. Tidak ada Polaritas yang mencegah pemba- karan dari instalasi yang salah. Salah satu bahan alumunium kualitas terbaik untuk mengurangi panas.</p>
-                        </div>
-                      </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="product-available">
-          <div class="nine-container">
-            <div class="pa-wrapper-head">
-              <p class="pa-head-title">Produk Tersedia</p>
-              <a class="pa-head-show-all" href="#">Lihat Semua</a>
-            </div>
-            <div class="row gx-2">
-              <div class="col">
-                <a class="pl-link-item" href="product-detail.html">
-                    <div class="pl-card-product">
-                        <img class="pl-product-image" src="../static/images/product-1.jpg">
-                        <p class="pl-product-tag"><i class="fas fa-check-circle"></i>lumnios-LED</p>
-                        <p class="pl-product-title">LED H11 - PNP</p>
-                        <p class="pl-product-price">Rp. 350.000</p>
-                    </div>
-                </a>
-              </div>
-              
-              <div class="col">
-                <a class="pl-link-item" href="product-detail.html">
-                    <div class="pl-card-product">
-                        <img class="pl-product-image" src="../static/images/product-7.jpg">
-                        <p class="pl-product-tag"><i class="fas fa-check-circle"></i>lumnios-LED</p>
-                        <p class="pl-product-title">LED H4 - CREE</p>
-                        <p class="pl-product-price">Rp. 350.000</p>
-                    </div>
-                </a>
-              </div>
-              
-              <div class="col">
-                <a class="pl-link-item" href="product-detail.html">
-                    <div class="pl-card-product">
-                        <img class="pl-product-image" src="../static/images/product-8.jpg">
-                        <p class="pl-product-tag"><i class="fas fa-check-circle"></i>lumnios-LED</p>
-                        <p class="pl-product-title">LED SINGLE - CREE</p>
-                        <p class="pl-product-price">Rp. 350.000</p>
-                    </div>
-                </a>
-              </div>
-              
-              <div class="col">
-                <a class="pl-link-item" href="product-detail.html">
-                    <div class="pl-card-product">
-                        <img class="pl-product-image" src="../static/images/product-1.jpg">
-                        <p class="pl-product-tag"><i class="fas fa-check-circle"></i>lumnios-LED</p>
-                        <p class="pl-product-title">LED H11 - PNP</p>
-                        <p class="pl-product-price">Rp. 350.000</p>
-                    </div>
-                </a>
-              </div>
-              
-              <div class="col">
-                <a class="pl-link-item" href="product-detail.html">
-                    <div class="pl-card-product">
-                        <img class="pl-product-image" src="../static/images/product-7.jpg">
-                        <p class="pl-product-tag"><i class="fas fa-check-circle"></i>lumnios-LED</p>
-                        <p class="pl-product-title">LED H4 - CREE</p>
-                        <p class="pl-product-price">Rp. 350.000</p>
-                    </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
         <section class="menu-bottom">
-            <a class="link-bottom" href="../pages/product-compare.html">Compare Product</a>
+            <a class="link-bottom" href="#">Compare Product</a>
             <a class="link-bottom" href="#">Warranty Check</a>
             <a class="link-bottom" href="#">My Account</a>
         </section>
@@ -451,44 +359,6 @@
     </main>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-    <script>
-        document.addEventListener( 'DOMContentLoaded', function () {
-        var secondarySlider = new Splide( '#secondary-slider', {
-            fixedWidth  : "25%",
-            height      : 94,
-            gap         : 10,
-            cover       : true,
-            arrows     : false,
-            isNavigation: true,
-		        rewind     : true,
-	          pagination : false,
-            focus       : 'center',
-            breakpoints : {
-                '600': {
-                    fixedWidth: 66,
-                    height    : 40,
-                }
-            },
-        } ).mount();
-        
-        var primarySlider = new Splide( '#primary-slider', {
-            type       : 'fade',
-            heightRatio: 0.6,
-            pagination : false,
-            arrows     : false,
-            cover      : true,
-            breakpoints : {
-                '767': {
-                    
-	            pagination : true,
-                }
-            },
-        } ); // do not call mount() here.
-        
-        primarySlider.sync( secondarySlider ).mount();
-    } );
-    </script>
     <script type="text/javascript">
       var button = document.querySelector('#dropdownMainBtn');
       var menu = document.querySelector('#dropdownMainContent');

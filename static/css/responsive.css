@@ -288,6 +288,9 @@
   section.product-available .col:nth-child(-n+2){
     display: block;
   }
+  section.compare-product .col-md-4{
+    width: 50%;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .main-header {

@@ -26,12 +26,73 @@
               <img class="header-brand" src="static/images/logo.svg">
             </a>
             <div class="d-flex">
-              <div class="wrapper-cart">
-                <div class="wrapper-cart-icon">
-                  <img class="cart-icon" src="static/images/ic-bag.svg">
-                  <div class="dots-notif"></div>
+              <div class="dropdown">
+                <a href="#" class="wrapper-cart dropdown-toggle" role="button" id="dropdownCart" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="wrapper-cart-icon">
+                    <img class="cart-icon" src="static/images/ic-bag.svg">
+                    <div class="dots-notif"></div>
+                  </div>
+                  <span>1 Item</span>
+                </a>
+                <div class="dropdown-menu dropdown-content-cart" id="dropdownMainCart" aria-labelledby="dropdownCart">
+                  <div class="right">
+                    <div class="row">
+                      <div class="right-wrapper">
+                        <div class="right-wrapper-cart">
+                          <div class="right-wrapper-cart-ic">
+                            <img class="cart-icon" src="static/images/ic-bag.svg">
+                            <div class="dots-notif"></div>
+                          </div>
+                          <span>13 Item</span>
+                        </div>
+                      </div>
+                      <div class="right-wrapper">
+                        <a class="cart-edit" href="#">Edit</a>
+                      </div>
+                      
+                    </div>
+                    <div class="wrapper-table">
+                      <table class="table table-cart">
+                        <tbody>
+                          <tr>
+                            <td>5 - LuminosLED</td>
+                            <td>1.500.000,-</td>
+                            <td><button class="btn button-rm"><img src="static/images/minus_circle.svg"></button></td>
+                          </tr>
+                          <tr>
+                            <td>3 - 9POWER</td>
+                            <td>700.000,-</td>
+                            <td><button class="btn button-rm"><img src="static/images/minus_circle.svg"></button></td>
+                          </tr>
+                          <tr>
+                            <td>2 - LX-TRIX</td>
+                            <td>200.000,-</td>
+                            <td><button class="btn button-rm"><img src="static/images/minus_circle.svg"></button></td>
+                          </tr>
+                          <tr>
+                            <td>3 - PRORAX</td>
+                            <td>350.000,-</td>
+                            <td><button class="btn button-rm"><img src="static/images/minus_circle.svg"></button></td>
+                          </tr>
+                        </tbody>
+                        <tfoot>
+                          <tr>
+                            <td>Total</td>
+                            <td colspan="2">IDR 2.700.000,-</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td colspan="2">
+                              <div class="right-wrapper">
+                                <a class="btn button-checkout" href="#">Check Out</a>
+                              </div>
+                            </td>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                  </div>
                 </div>
-                <span>1 Item</span>
               </div>
               
 
@@ -150,43 +211,50 @@
                           </div>
                         </div>
                         <div class="right-wrapper">
-                          <div class="right-wrapper-profile">
-                            <img class="icon-profile" src="static/images/profile.svg">
-                            <span>hi, Rudy</span>
-                          </div>
+                          <a class="cart-edit" href="#">Edit</a>
                         </div>
-                        <div class="right-wrapper">
-                          <a class="btn button-checkout" href="#">Check Out</a>
-                        </div>
+                        
                       </div>
-                      
-                      <table class="table table-cart">
-                        <tbody>
-                          <tr>
-                            <td>5 - LuminosLED</td>
-                            <td>1.500.000,-</td>
-                          </tr>
-                          <tr>
-                            <td>3 - 9POWER</td>
-                            <td>700.000,-</td>
-                          </tr>
-                          <tr>
-                            <td>2 - LX-TRIX</td>
-                            <td>200.000,-</td>
-                          </tr>
-                          <tr>
-                            <td>3 - PRORAX</td>
-                            <td>350.000,-</td>
-                          </tr>
-                        </tbody>
-                        <tfoot>
-                          <tr>
-                            <td>Total</td>
-                            <td>IDR 2.700.000,-</td>
-                          </tr>
-                        </tfoot>
-                      </table>
-                      <a class="btn button-checkout-sm" href="#">Check Out</a>
+                      <div class="wrapper-table">
+                        <table class="table table-cart">
+                          <tbody>
+                            <tr>
+                              <td>5 - LuminosLED</td>
+                              <td>1.500.000,-</td>
+                              <td><button class="btn button-rm"><img src="static/images/minus_circle.svg"></button></td>
+                            </tr>
+                            <tr>
+                              <td>3 - 9POWER</td>
+                              <td>700.000,-</td>
+                              <td><button class="btn button-rm"><img src="static/images/minus_circle.svg"></button></td>
+                            </tr>
+                            <tr>
+                              <td>2 - LX-TRIX</td>
+                              <td>200.000,-</td>
+                              <td><button class="btn button-rm"><img src="static/images/minus_circle.svg"></button></td>
+                            </tr>
+                            <tr>
+                              <td>3 - PRORAX</td>
+                              <td>350.000,-</td>
+                              <td><button class="btn button-rm"><img src="static/images/minus_circle.svg"></button></td>
+                            </tr>
+                          </tbody>
+                          <tfoot>
+                            <tr>
+                              <td>Total</td>
+                              <td colspan="2">IDR 2.700.000,-</td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td colspan="2">
+                                <div class="right-wrapper">
+                                  <a class="btn button-checkout" href="#">Check Out</a>
+                                </div>
+                              </td>
+                            </tr>
+                          </tfoot>
+                        </table>
+                      </div>
                     </div>
                     
                   </div>
@@ -465,6 +533,12 @@
             }
           }
         );
+    </script>
+    <script>
+      var myDropdown = document.getElementById('dropdownCart')
+      myDropdown.addEventListener('show.bs.dropdown', function () {
+        stopPropagation();
+      })
     </script>
   </body>
 </html>

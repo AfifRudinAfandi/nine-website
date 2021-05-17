@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    
+    <link href="../static/css/main.css" rel="stylesheet"/>
+    <link href="../static/css/responsive.css" rel="stylesheet"/>
+
+    <title>Nine</title>
+  </head>
+  <body>
+    <nav class="main-header">
+      <div class="header-main-wrapper fixed-top">
+        <div class="top-header">
+          <div class="nine-container">
+            <a class="navbar-brand" href="#">
+              <img class="header-brand" src="../static/images/logo.svg">
+            </a>
+            <div class="d-flex">
+              <div class="dropdown dropdown-cart">
+                <a href="#" class="wrapper-cart dropdown-toggle" role="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                  <div class="wrapper-cart-icon">
+                    <img class="cart-icon" src="../static/images/ic-bag.svg">
+                    <div class="dots-notif"></div>
+                  </div>
+                  <span>1 Item</span>
+                </a>
+                <div class="dropdown-menu dropdown-content-cart" id="dropdownMainCart" aria-labelledby="dropdownCart">
+                  <div class="right">
+                    <div class="row">
+                      <div class="right-wrapper">
+                        <div class="right-wrapper-cart">
+                          <div class="right-wrapper-cart-ic">
+                            <img class="cart-icon" src="../static/images/ic-bag.svg">
+                            <div class="dots-notif"></div>
+                          </div>
+                          <span>13 Item</span>
+                        </div>
+                      </div>
+                      <div class="right-wrapper">
+                        <a class="cart-edit" href="#">Edit</a>
+                      </div>
+                    </div>
+                    <div class="wrapper-table">
+                      <table class="table table-cart">
+                        <tbody>
+                          <tr>
+                            <td>5 - LuminosLED</td>
+                            <td>1.500.000,-</td>
+                            <td><button class="btn button-rm"><img src="../static/images/minus_circle.svg"></button></td>
+                          </tr>
+                          <tr>
+                            <td>3 - 9POWER</td>
+                            <td>700.000,-</td>
+                            <td><button class="btn button-rm"><img src="../static/images/minus_circle.svg"></button></td>
+                          </tr>
+                          <tr>
+                            <td>2 - LX-TRIX</td>
+                            <td>200.000,-</td>
+                            <td><button class="btn button-rm"><img src="../static/images/minus_circle.svg"></button></td>
+                          </tr>
+                          <tr>
+                            <td>3 - PRORAX</td>
+                            <td>350.000,-</td>
+                            <td><button class="btn button-rm"><img src="../static/images/minus_circle.svg"></button></td>
+                          </tr>
+                        </tbody>
+                        <tfoot>
+                          <tr>
+                            <td>Total</td>
+                            <td colspan="2">IDR 2.700.000,-</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td colspan="2">
+                              <div class="right-wrapper">
+                                <a class="btn button-checkout" href="#">Check Out</a>
+                              </div>
+                            </td>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown dropdown-profile">
+                <a href="#" class="btn dropdown-triger dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img class="icon-dropdown" src="../static/images/profile.svg">
+                  <span>hi, Rudy</span>
+                </a>
+                <ul class="dropdown-menu dropdown-content-profile" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Log Out</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="second-header">
+          <div class="nine-container">
+            <h5 class="header-title">Official Store</h5>
+            <div class="d-flex align-items-center">
+              <form action="pages/search_list.html">
+                <div class="wrapper-search">
+                  <button class="btn search-btn" type="submit">
+                    <img class="search-ic" src="../static/images/ic-search.svg">
+                  </button>
+                  <input class="input-search" type="text" name="" placeholder="Type to Search">
+                </div>
+              </form>
+              <div class="dropdown-main">
+                <button class="btn dropdown-main-button dropdown-toggle" id="dropdownMainBtn" data-bs-toggle="dropdown" data-bs-auto-close="outside"  aria-expanded="false">
+                  <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="9" height="9" rx="1.9" fill="white" stroke="#88C540"/>
+                    <rect y="13" width="10" height="10" rx="2.4" fill="#88C540"/>
+                    <rect x="13" width="10" height="10" rx="2.4" fill="#88C540"/>
+                    <rect x="13" y="13" width="10" height="10" rx="2.4" fill="#88C540"/>
+                  </svg>
+                </button>
+                <div class="dropdown-wrapper-content-main dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+                  <div class="dropdown-content-main">
+                    <div class="left">
+                      <!-- MENU MOBILE VIEW -->
+                      <div class="left-mobile-item">
+                        <div class="accordion accordion-flush accordion-mobile-menu" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Official Brand
+                              </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <ul class="list-menu">
+                                  <li><a class="link-menu" href="#">Luminos-LED</a></li>
+                                  <li><a class="link-menu" href="#">SOUNDBLAX</a></li>
+                                  <li><a class="link-menu" href="#">9POWER</a></li>
+                                  <li><a class="link-menu" href="#">LX-TRIX</a></li>
+                                  <li><a class="link-menu" href="#">GLOW-CARE</a></li>
+                                  <li><a class="link-menu" href="#">PRORAX</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                www.nine.co.id
+                              </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <ul class="list-menu">
+                                  <li><a class="link-menu" href="../pages/product_brand.html">Product</a></li>
+                                  <li><a class="link-menu" href="../pages/product_compare.html">Compare Product</a></li>
+                                  <li><a class="link-menu" href="#">Warranty Check</a></li>
+                                  <li><a class="link-menu" href="#">Support</a></li>
+                                  <li><a class="link-menu" href="#">Blog</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!---->
+                      <div class="left-item">
+                        <div class="official-brand">
+                          <h5>Official Brand</h5>
+                          <ul class="list-menu">
+                            <li><a class="link-menu" href="#">Luminos-LED</a></li>
+                            <li><a class="link-menu" href="#">SOUNDBLAX</a></li>
+                            <li><a class="link-menu" href="#">9POWER</a></li>
+                            <li><a class="link-menu" href="#">LX-TRIX</a></li>
+                            <li><a class="link-menu" href="#">GLOW-CARE</a></li>
+                            <li><a class="link-menu" href="#">PRORAX</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="left-item">
+                        <div class="about-nine">
+                          <h5>www.nine.co.id</h5>
+                          <ul class="list-menu">
+                            <li><a class="link-menu" href="../pages/product_brand.html">Product</a></li>
+                            <li><a class="link-menu" href="../pages/product_compare.html">Compare Product</a></li>
+                            <li><a class="link-menu" href="#">Warranty Check</a></li>
+                            <li><a class="link-menu" href="#">Support</a></li>
+                            <li><a class="link-menu" href="#">Blog</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right">
+                      <div class="row">
+                        <div class="right-wrapper">
+                          <div class="right-wrapper-cart">
+                            <div class="right-wrapper-cart-ic">
+                              <img class="cart-icon" src="../static/images/ic-bag.svg">
+                              <div class="dots-notif"></div>
+                            </div>
+                            <span>13 Item</span>
+                          </div>
+                        </div>
+                        <div class="right-wrapper">
+                          <a class="cart-edit" href="#">Edit</a>
+                        </div>
+                        
+                      </div>
+                      <div class="wrapper-table">
+                        <table class="table table-cart">
+                          <tbody>
+                            <tr>
+                              <td>5 - LuminosLED</td>
+                              <td>1.500.000,-</td>
+                              <td><button class="btn button-rm"><img src="../static/images/minus_circle.svg"></button></td>
+                            </tr>
+                            <tr>
+                              <td>3 - 9POWER</td>
+                              <td>700.000,-</td>
+                              <td><button class="btn button-rm"><img src="../static/images/minus_circle.svg"></button></td>
+                            </tr>
+                            <tr>
+                              <td>2 - LX-TRIX</td>
+                              <td>200.000,-</td>
+                              <td><button class="btn button-rm"><img src="../static/images/minus_circle.svg"></button></td>
+                            </tr>
+                            <tr>
+                              <td>3 - PRORAX</td>
+                              <td>350.000,-</td>
+                              <td><button class="btn button-rm"><img src="../static/images/minus_circle.svg"></button></td>
+                            </tr>
+                          </tbody>
+                          <tfoot>
+                            <tr>
+                              <td>Total</td>
+                              <td colspan="2">IDR 2.700.000,-</td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td colspan="2">
+                                <div class="right-wrapper">
+                                  <a class="btn button-checkout" href="#">Check Out</a>
+                                </div>
+                              </td>
+                            </tr>
+                          </tfoot>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="main-wrapper">
+      <section class="privacy">
+          <div class="nine-container">
+              <div class="row gx-5">
+                  <div class="col-md-3">
+                    <ul class="nav nav-pills menu-privacy" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-1-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1" aria-selected="true">About Us</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-2-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2" aria-selected="false">Privacy Policy</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-3-tab" data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-3" aria-selected="false">Legal Info</button>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact_us.html" class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                            <div class="wrapper-content">
+                                <h5 class="title">About Us</h5>
+                                <img src="../static/images/content.jpg" style="width: 100%; margin-bottom: 37px;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sem in risus finibus rutrum. Mauris feugiat ullamcorper lobortis. In eget gravida felis, at pulvinar magna. Ut blandit ligula et nunc hendrerit, quis interdum purus vestibulum. Etiam eget posuere dolor. Proin lobortis at erat at porttitor. Sed neque risus, mattis a dictum ut, aliquam in sem. Donec ut mattis justo. Duis molestie non eros eu tempus. Vivamus auctor sagittis turpis et consequat. Ut facilisis dui eu pulvinar dignissim. Nunc molestie sem mi, et vestibulum leo ultrices nec.</p>
+                                <br>
+                                <p>Phasellus molestie volutpat sem at eleifend. Donec rutrum vestibulum diam eget convallis. Quisque eleifend finibus sagittis. In suscipit consequat lacus, convallis iaculis urna dignissim sed. Nam blandit pharetra tortor. Morbi malesuada augue augue, eget dapibus elit placerat a. Vivamus interdum tortor in diam aliquet, ut tincidunt turpis volutpat. Integer eget nibh sit amet arcu rutrum cursus id vitae mauris. Pellentesque ac neque elementum, congue ante et, ultrices mi. Pellentesque bibendum dapibus lectus ut eleifend. Phasellus quis nisl at orci elementum consequat. Morbi luctus, diam vitae tincidunt blandit, erat purus imperdiet nibh, ut elementum leo nibh a nisi. Pellentesque imperdiet ac leo non tincidunt. Vestibulum pretium interdum facilisis.</p>
+                                <br>
+                                <p class="tag-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sem in risus finibus rutrum. Mauris feugiat ullamcorper lobortis. In eget gravida felis, at pulvinar magna.
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sem in risus finibus rutrum. Mauris feugiat ullamcorper lobortis. In eget gravida felis, at pulvinar magna. Ut blandit ligula et nunc hendrerit, quis interdum purus vestibulum. Etiam eget posuere dolor. Proin lobortis at erat at porttitor. Sed neque risus, mattis a dictum ut, aliquam in sem. Donec ut mattis justo. Duis molestie non eros eu tempus. Vivamus auctor sagittis turpis et consequat. Ut facilisis dui eu pulvinar dignissim. Nunc molestie sem mi, et vestibulum leo ultrices nec.</p>
+                                <br>
+                                <p>Phasellus molestie volutpat sem at eleifend. Donec rutrum vestibulum diam eget convallis. Quisque eleifend finibus sagittis. In suscipit consequat lacus, convallis iaculis urna dignissim sed. Nam blandit pharetra tortor. Morbi malesuada augue augue, eget dapibus elit placerat a.</p>                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                            <div class="wrapper-content">
+                                <h5 class="title">Privacy Policy</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sem in risus finibus rutrum. Mauris feugiat ullamcorper lobortis. In eget gravida felis, at pulvinar magna. Ut blandit ligula et nunc hendrerit, quis interdum purus vestibulum. Etiam eget posuere dolor. Proin lobortis at erat at porttitor. Sed neque risus, mattis a dictum ut, aliquam in sem. Donec ut mattis justo. Duis molestie non eros eu tempus. Vivamus auctor sagittis turpis et consequat. Ut facilisis dui eu pulvinar dignissim. Nunc molestie sem mi, et vestibulum leo ultrices nec.</p>
+                                <br>
+                                <p>Phasellus molestie volutpat sem at eleifend. Donec rutrum vestibulum diam eget convallis. Quisque eleifend finibus sagittis. In suscipit consequat lacus, convallis iaculis urna dignissim sed. Nam blandit pharetra tortor. Morbi malesuada augue augue, eget dapibus elit placerat a. Vivamus interdum tortor in diam aliquet, ut tincidunt turpis volutpat. Integer eget nibh sit amet arcu rutrum cursus id vitae mauris. Pellentesque ac neque elementum, congue ante et, ultrices mi. Pellentesque bibendum dapibus lectus ut eleifend. Phasellus quis nisl at orci elementum consequat. Morbi luctus, diam vitae tincidunt blandit, erat purus imperdiet nibh, ut elementum leo nibh a nisi. Pellentesque imperdiet ac leo non tincidunt. Vestibulum pretium interdum facilisis.</p>
+                                <br>
+                                <p class="tag-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sem in risus finibus rutrum. Mauris feugiat ullamcorper lobortis. In eget gravida felis, at pulvinar magna.
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sem in risus finibus rutrum. Mauris feugiat ullamcorper lobortis. In eget gravida felis, at pulvinar magna. Ut blandit ligula et nunc hendrerit, quis interdum purus vestibulum. Etiam eget posuere dolor. Proin lobortis at erat at porttitor. Sed neque risus, mattis a dictum ut, aliquam in sem. Donec ut mattis justo. Duis molestie non eros eu tempus. Vivamus auctor sagittis turpis et consequat. Ut facilisis dui eu pulvinar dignissim. Nunc molestie sem mi, et vestibulum leo ultrices nec.</p>
+                                <br>
+                                <p>Phasellus molestie volutpat sem at eleifend. Donec rutrum vestibulum diam eget convallis. Quisque eleifend finibus sagittis. In suscipit consequat lacus, convallis iaculis urna dignissim sed. Nam blandit pharetra tortor. Morbi malesuada augue augue, eget dapibus elit placerat a.</p>                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                            <div class="wrapper-content">
+                                <h5 class="title">Legal Info</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sem in risus finibus rutrum. Mauris feugiat ullamcorper lobortis. In eget gravida felis, at pulvinar magna. Ut blandit ligula et nunc hendrerit, quis interdum purus vestibulum. Etiam eget posuere dolor. Proin lobortis at erat at porttitor. Sed neque risus, mattis a dictum ut, aliquam in sem. Donec ut mattis justo. Duis molestie non eros eu tempus. Vivamus auctor sagittis turpis et consequat. Ut facilisis dui eu pulvinar dignissim. Nunc molestie sem mi, et vestibulum leo ultrices nec.</p>
+                                <br>
+                                <p>Phasellus molestie volutpat sem at eleifend. Donec rutrum vestibulum diam eget convallis. Quisque eleifend finibus sagittis. In suscipit consequat lacus, convallis iaculis urna dignissim sed. Nam blandit pharetra tortor. Morbi malesuada augue augue, eget dapibus elit placerat a. Vivamus interdum tortor in diam aliquet, ut tincidunt turpis volutpat. Integer eget nibh sit amet arcu rutrum cursus id vitae mauris. Pellentesque ac neque elementum, congue ante et, ultrices mi. Pellentesque bibendum dapibus lectus ut eleifend. Phasellus quis nisl at orci elementum consequat. Morbi luctus, diam vitae tincidunt blandit, erat purus imperdiet nibh, ut elementum leo nibh a nisi. Pellentesque imperdiet ac leo non tincidunt. Vestibulum pretium interdum facilisis.</p>
+                                <br>
+                                <p class="tag-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sem in risus finibus rutrum. Mauris feugiat ullamcorper lobortis. In eget gravida felis, at pulvinar magna.
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sem in risus finibus rutrum. Mauris feugiat ullamcorper lobortis. In eget gravida felis, at pulvinar magna. Ut blandit ligula et nunc hendrerit, quis interdum purus vestibulum. Etiam eget posuere dolor. Proin lobortis at erat at porttitor. Sed neque risus, mattis a dictum ut, aliquam in sem. Donec ut mattis justo. Duis molestie non eros eu tempus. Vivamus auctor sagittis turpis et consequat. Ut facilisis dui eu pulvinar dignissim. Nunc molestie sem mi, et vestibulum leo ultrices nec.</p>
+                                <br>
+                                <p>Phasellus molestie volutpat sem at eleifend. Donec rutrum vestibulum diam eget convallis. Quisque eleifend finibus sagittis. In suscipit consequat lacus, convallis iaculis urna dignissim sed. Nam blandit pharetra tortor. Morbi malesuada augue augue, eget dapibus elit placerat a.</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="menu-bottom">
+        <a class="link-bottom" href="../pages/product_compare.html">Compare Product</a>
+        <a class="link-bottom" href="#">Warranty Check</a>
+        <a class="link-bottom" href="#">My Account</a>
+      </section>
+      <footer>
+        <div class="nine-container">
+          <div class="row">
+            <div class="col-md-12">
+              <img class="footer-brand" src="../static/images/logo.svg">
+            </div>
+            <div class="col-md-3">
+              <p class="footer-nine-title">PT. Sembilan Indonesia</p>
+              <p class="footer-nine-address">Jl. Utama Sakti 8, No.12H-I Wijaya Kusuma, Jakarta 11460</p>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-menu-footer">
+                <li>
+                  <a class="item-menu-footer" href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a class="item-menu-footer" href="#">Legal Info</a>
+                </li>
+                <li>
+                  <a class="item-menu-footer" href="#">Contact Us</a>
+                </li>
+              </ul>
+              <p class="copy-right">Copyright © 2021 SEMBILAN INDONESIA</p>
+            </div>
+            <div class="col-md-3">
+              <ul class="list-social-link">
+                <li>
+                  <a class="item-social-link" href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a class="item-social-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li>
+                  <a class="item-social-link" href="#"><i class="fas fa-envelope"></i></a>
+                </li>
+              </ul>
+              <a class="footer-link-website" href="#">www.nine.co.id</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>

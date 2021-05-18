@@ -1,4 +1,7 @@
 @media (max-width: 575.98px) {
+  .g-1, .g-2, .g-3, .g-4, .g-5, .gx-1, .gx-2, .gx-3, .gx-4, .gx-5{
+    --bs-gutter-x: 1.5rem;
+  }
   .main-header {
     margin-top: 132px;
   }
@@ -362,7 +365,56 @@
     left: 50% !important;
     transform: translate3d(-50%, 67px, 0px) !important;
   }
-
+  section.contact{
+    padding-top: 34px;
+    padding-bottom: 68px;
+  }
+  section.contact .wrapper-contact-right{
+    margin-top: 0;
+    margin-bottom: 84px;
+    padding: 32px 28px;
+    border-radius: 24px;
+  }
+  section.banner-contact {
+    min-height: 262px;
+    padding-top: 84px;
+    background-position: 75%;
+  }
+  section.contact .wrapper-contact-left {
+    padding: 0px 15px;
+  }
+  section.contact .wrapper-contact-right .title {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  section.banner-contact .title {
+    font-size: 28px;
+  }
+  section.banner-contact .title span {
+    font-size: 38px;
+    line-height: 42px;
+    display: block;
+  }
+  section.contact .container .wp-max .row{
+    flex-direction: column-reverse;
+  }
+  section.privacy .menu-privacy{
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: none;
+    border: none;
+    margin-top: 0;
+  }
+  section.privacy .menu-privacy .nav-item{
+    margin: 6px;
+    border: 1px solid #EDEDED;
+  }
+  section.privacy .menu-privacy .nav-item .nav-link{
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 4px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .main-header {
@@ -649,6 +701,66 @@
   section.product-available .col:nth-child(-n+2){
     display: block;
   }
+  section.contact{
+    padding-top: 34px;
+    padding-bottom: 68px;
+  }
+  section.contact .wrapper-contact-right{
+    margin-top: 0;
+    margin-bottom: 84px;
+    padding: 64px 48px;
+    border-radius: 24px;
+  }
+  section.banner-contact {
+    min-height: 262px;
+    padding-top: 84px;
+    background-position: 75%;
+  }
+  section.contact .wrapper-contact-left {
+    padding: 0px 15px;
+  }
+  section.contact .wrapper-contact-right .title {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  section.banner-contact .title {
+    font-size: 28px;
+  }
+  section.banner-contact .title span {
+    font-size: 38px;
+    line-height: 42px;
+    display: block;
+  }
+  section.contact .container .wp-max .row{
+    flex-direction: column-reverse;
+  }
+  section.privacy .menu-privacy{
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: none;
+    border: none;
+    margin-top: 0;
+  }
+  section.privacy .menu-privacy .nav-item{
+    margin: 6px;
+    border: 1px solid #EDEDED;
+  }
+  section.privacy .menu-privacy .nav-item .nav-link{
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 4px;
+  }
+  
+  section.compare-product .wp-compare-xl{
+    display: none;
+  }
+  section.compare-product .wp-compare-xs{
+    display: block;
+  }
+  section.compare-product .cp-wrapper-button button {
+    margin-bottom: 8px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .main-header .second-header .dropdown-main .dropdown-content-main {
@@ -799,6 +911,19 @@
   }
   section.product-available .col:nth-child(-n+4){
     display: block;
+  }
+  
+  section.contact .wrapper-contact-right .title {
+    font-size: 38px;
+  }
+  section.compare-product .wp-compare-xl .row .col-md-4{
+    width: 50%;
+  }
+  section.compare-product .wp-compare-xl .row .col-md-4:nth-last-of-type(1){
+    display: none;
+  }
+  section.compare-product .cp-wrapper-button button {
+    margin-bottom: 8px;
   }
 }
 

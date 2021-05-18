@@ -2125,16 +2125,14 @@ section.privacy{
   padding-top: 38px;
 }
 section.privacy .menu-privacy{
-  display: flex;
-  flex-direction: column;
-  margin-top: 38px;
-}
-section.privacy .menu-privacy{
   border: 1px solid #EDEDED;
   box-shadow: 0px 4px 24px rgba(147, 156, 179, 0.2);
   border-radius: 4px;
   overflow: hidden;
   margin-bottom: 38px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
 }
 section.privacy .menu-privacy .nav-item:nth-last-of-type(1) .nav-link{
   border-bottom: none;
@@ -2217,6 +2215,11 @@ section.banner-contact{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+section.contact .wrapper-contact-left a{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 section.banner-contact .container, section.contact .container{
   display: flex;

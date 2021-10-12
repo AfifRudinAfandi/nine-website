@@ -1,4 +1,10 @@
 @media (max-width: 575.98px) {
+  .xl-only{
+    display: none;
+  }
+  .top-profile-xs{
+    display: flex;
+  }
   .g-1, .g-2, .g-3, .g-4, .g-5, .gx-1, .gx-2, .gx-3, .gx-4, .gx-5{
     --bs-gutter-x: 1.5rem;
   }
@@ -427,6 +433,9 @@
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .xl-only{
+    display: none;
+  }
   .main-header {
     margin-top: 132px;
   }
@@ -985,6 +994,9 @@ section.product-detail .pd-wrapper-transaction .pd-wrapper-button-group-transact
 @media (min-width: 768px) {
   .nine-container {
     max-width: 720px;
+  }
+  .top-profile-xs{
+    display: none !important;
   }
 }
 @media (min-width: 992px) {

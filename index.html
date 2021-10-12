@@ -30,6 +30,16 @@
             </a>
 
             <div class="d-flex">
+              <a href="#" class="register-link">
+                <img src="static/images/profile.svg">
+                <span>Daftar</span>
+              </a>
+              <a href="#" class="register-link">
+                <img src="static/images/login.svg">
+                <span>Login</span>
+              </a>
+            </div>
+            <div class="d-flex top-profile-xs">
               <div class="dropdown dropdown-cart">
                 <a href="#" class="wrapper-cart dropdown-toggle" role="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                   <div class="wrapper-cart-icon">
@@ -121,7 +131,81 @@
                   <input class="input-search" type="text" name="" placeholder="Type to Search">
                 </div>
               </form>
-
+              <div class="dropdown dropdown-cart bl-nav xl-only">
+                <a href="#" class="wrapper-cart dropdown-toggle" role="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                  <div class="wrapper-cart-icon">
+                    <img class="cart-icon" src="static/images/ic-bag.svg">
+                    <div class="dots-notif"></div>
+                  </div>
+                  <span>1 Item</span>
+                </a>
+                <div class="dropdown-menu dropdown-content-cart" id="dropdownMainCart" aria-labelledby="dropdownCart">
+                  <div class="right">
+                    <div class="row">
+                      <div class="right-wrapper">
+                        <div class="right-wrapper-cart">
+                          <div class="right-wrapper-cart-ic">
+                            <img class="cart-icon" src="static/images/ic-bag.svg">
+                            <div class="dots-notif"></div>
+                          </div>
+                          <span>13 Item</span>
+                        </div>
+                      </div>
+                      <div class="right-wrapper">
+                        <a class="cart-edit" href="#">Edit</a>
+                      </div>
+                    </div>
+                    <div class="wrapper-table">
+                      <table class="table table-cart">
+                        <tbody>
+                          <tr>
+                            <td>5 - LuminosLED</td>
+                            <td>1.500.000,-</td>
+                            <td><button class="btn button-rm"><img src="static/images/minus_circle.svg"></button></td>
+                          </tr>
+                          <tr>
+                            <td>3 - 9POWER</td>
+                            <td>700.000,-</td>
+                            <td><button class="btn button-rm"><img src="static/images/minus_circle.svg"></button></td>
+                          </tr>
+                          <tr>
+                            <td>2 - LX-TRIX</td>
+                            <td>200.000,-</td>
+                            <td><button class="btn button-rm"><img src="static/images/minus_circle.svg"></button></td>
+                          </tr>
+                          <tr>
+                            <td>3 - PRORAX</td>
+                            <td>350.000,-</td>
+                            <td><button class="btn button-rm"><img src="static/images/minus_circle.svg"></button></td>
+                          </tr>
+                        </tbody>
+                        <tfoot>
+                          <tr>
+                            <td>Total</td>
+                            <td colspan="2">IDR 2.700.000,-</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td colspan="2">
+                              <div class="right-wrapper">
+                                <a class="btn button-checkout" href="#">Check Out</a>
+                              </div>
+                            </td>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown dropdown-profile bl-nav br-nav xl-only">
+                <a href="#" class="btn dropdown-triger dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img class="icon-dropdown" src="static/images/profile.svg">
+                </a>
+                <ul class="dropdown-menu dropdown-content-profile" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Log Out</a></li>
+                </ul>
+              </div>
               <div class="dropdown-main">
                 <button class="btn dropdown-main-button dropdown-toggle" id="dropdownMainBtn" data-bs-toggle="dropdown" data-bs-auto-close="outside"  aria-expanded="false">
                   <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
